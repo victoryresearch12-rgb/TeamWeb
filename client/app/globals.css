@@ -1,0 +1,54 @@
+@import "tailwindcss";
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables for colors & fonts (matching the style guide) */
+:root{
+  --color-primary: #0A2647;
+  --color-secondary: #144272;
+  --color-accent: #FFC300;
+  --color-bg: #FFFFFF;
+  --color-deep: #1B1B1B;
+  --color-neutral-100: #F1F3F5;
+}
+
+/* font variables set by next/font in page */
+:root {
+  --font-merri: 'Merriweather', serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+html, body, #__next {
+  height: 100%;
+  background: var(--color-bg);
+  color: var(--color-deep);
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* serif headings helper */
+.font-serif { font-family: var(--font-merri) !important; }
+
+/* small accessibility helpers */
+.skip-link{ position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; }
+.skip-link:focus{ left:10px; top:10px; width:auto; height:auto; }
+
+/* subtle fade-in page load */
+[data-theme] {
+  opacity: 0;
+  animation: fadeIn 300ms ease-in forwards;
+}
+@keyframes fadeIn { to { opacity: 1; } }
+
+/* tag styles */
+.tag-gold {
+  border: 1px solid var(--color-accent);
+  color: var(--color-primary);
+  background: transparent;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 9999px;
+}
