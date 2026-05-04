@@ -123,7 +123,7 @@ export default function ResearchPage() {
   ];
 
   const nonIndexedPapers: Paper[] = [
-    { title: "Noisy Transliterated Mongolian Text Normalization Using а Correction Module", authors: "Zolzaya Byambadorj, Ulziibayar Sonom-Ochir, Ariunzaya Batgerel", year: "2026", venue: "Судалж, хөгжье 2026 олон улсын эрдэм шинжилгээний хурал" }
+    { title: "Noisy Transliterated Mongolian Text Normalization Using а Correction Module", authors: "Zolzaya Byambadorj, Ulziibayar Sonom-Ochir, Ariunzaya Batgerel", year: "2026", venue: "Судалж, хөгжье 2026 олон улсын эрдэм шинжилгээний хурал" },
     { title: "Бага нөөцтэй нутгийн аялгын ярианы синтезийн судалгаа", authors: "Б.Золзаяа, С.Өлзийбаяр, Б.Ариунзаяа", year: "2026", venue: "ММТ-2026" },
     { title: "Нөөц багатай нөхцөлд монгол-англи холимог бичвэрийн мэдрэмжийн шинжилгээний аргачлал", authors: "А.Цолмонбаяр, Б.Золзаяа", year: "2026", venue: "ММТ-2026" },
     { title: "Эртний рүни-монгол бичээсийг орчин цагт амилуулах нь: Дүрсэд суурилсан систем", authors: "С.Өлзийбаяр, Б.Золзаяа, Ю.Болдбаатар", year: "2026", venue: "ММТ-2026" },
