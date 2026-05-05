@@ -210,7 +210,7 @@ export default function ResearchPage() {
 
   const tabs: { id: 'journals' | 'conferences' | 'domestic' | 'projects' | 'achievements'; label: string; count: number }[] = [
     { id: 'journals', label: 'Сэтгүүл (WoS/Scopus)', count: indexedJournals.length },
-    { id: 'conferences', label: 'Хурал (WoS/Scopus)', count: indexedConferences.length },
+    { id: 'conferences', label: 'Олон улсын хурал', count: indexedConferences.length },
     { id: 'domestic', label: 'Дотоодын бүтээл', count: nonIndexedPapers.length },
     { id: 'projects', label: 'Оюутны төсөл', count: projects.length },
     { id: 'achievements', label: 'Амжилт', count: achievements.length },
