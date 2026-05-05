@@ -29,7 +29,7 @@ export const professors: Professor[] = [
   {
     id: 'ulziibayar-sonom-ochir',
     name: 'С.Өлзийбаяр, дэд профессор, Ph.D',
-    title: 'Ахлах судлаач — Компьютерийн хараа, Мультимодаль AI',
+    title: 'Дэд профессор — Компьютерийн хараа, Мультимодаль AI',
     img: '/images/professors/ulziibayar.png',
     email: 'ulziibayar@must.edu.mn',
     phone: '+976 7015-7333',
