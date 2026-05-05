@@ -79,6 +79,15 @@ export default function ResearchPage() {
   ];
 
   const indexedConferences: Paper[] = [
+    { title: "Noisy Transliterated Mongolian Text Normalization Using а Correction Module", authors: "Zolzaya Byambadorj, Ulziibayar Sonom-Ochir, Ariunzaya Batgerel", year: "2026", venue: "Судалж, хөгжье 2026 олон улсын эрдэм шинжилгээний хурал" },
+    { title: "Хязгаарлагдмал өгөгдөлтэй нөхцөлд буриад аялгын ярианы синтезийн судалгаа", authors: "Б.Золзаяа, С.Өлзийбаяр, Б.Ариунзаяа", year: "2026", venue: "Ази судлал олон улсын эрдэм шинжилгээний хурал XII хурал" },
+    { title: "Дүрсийн технологид суурилсан эртний Рүни-Монгол бичгийг орчин цагийн монгол хэл рүү хөрвүүлэх судалгаа", authors: "С.Өлзийбаяр, Б.Золзаяа, Ю. Болдбаатар", year: "2026", venue: "Ази судлал олон улсын эрдэм шинжилгээний хурал XII хурал" },
+    { title: "A Study on Efficient Methods for Normalizing Transliterated Social Media Text.", authors: "Sonom-Ochir U., Byambadorj Z., Ayush A., Enkhbayar M., Kim H.", year: "2024", venue: "ICEF 2024" },
+    { title: "Automatic player detection and classification using YOLOv8 and Computer Vision Techniques.", authors: "Gantumur Munkhbat, Karungaru S., Terada K., Ayush A.", year: "2024", venue: "ICEF 2024" },
+    { title: "Detection of Players on a Soccer Team using YOLOv8 and Unsupervised Methods.", authors: "Batbaatar Namjildorj, Karungaru S., Terada K., Ayush A.", year: "2024", venue: "ICEF 2024" },
+    { title: "Cross-lingual, multi-speaker text-to-speech synthesis for low resource languages", authors: "Zolzaya Byambadorj, Ryota Nishimura, Altangerel Ayush, Kengo Ohta, Norihide Kitaoka", year: "2021", venue: "Acoustical Society of Japan (ASJ)" },
+    { title: "Text to speech system for low resource languages by cross-lingual transfer learning and data augmentation", authors: "Zolzaya Byambadorj, Ryota Nishimura, Altangerel Ayush, Kengo Ohta, Norihide Kitaoka", year: "2021", venue: "Acoustical Society of Japan (ASJ)" },
+    { title: "Normalization of transliterated words using Seq2Seq model with spell checker", authors: "Byambadorj Zolzaya, Ryota Nishimura, Ayush Altangerel, Norihide Kitaoka", year: "2020", venue: "Conference paper" },
     {
       title: "Efficient Training Data Gathering for Federated Learning in Multi-Hop Wireless Network.",
       authors: "Dorj Erdenetuya, Kazuhiko Kinoshita, Altangerel Ayush",
@@ -123,7 +132,6 @@ export default function ResearchPage() {
   ];
 
   const nonIndexedPapers: Paper[] = [
-    { title: "Noisy Transliterated Mongolian Text Normalization Using а Correction Module", authors: "Zolzaya Byambadorj, Ulziibayar Sonom-Ochir, Ariunzaya Batgerel", year: "2026", venue: "Судалж, хөгжье 2026 олон улсын эрдэм шинжилгээний хурал" },
     { title: "Бага нөөцтэй нутгийн аялгын ярианы синтезийн судалгаа", authors: "Б.Золзаяа, С.Өлзийбаяр, Б.Ариунзаяа", year: "2026", venue: "ММТ-2026" },
     { title: "Нөөц багатай нөхцөлд монгол-англи холимог бичвэрийн мэдрэмжийн шинжилгээний аргачлал", authors: "А.Цолмонбаяр, Б.Золзаяа", year: "2026", venue: "ММТ-2026" },
     { title: "Эртний рүни-монгол бичээсийг орчин цагт амилуулах нь: Дүрсэд суурилсан систем", authors: "С.Өлзийбаяр, Б.Золзаяа, Ю.Болдбаатар", year: "2026", venue: "ММТ-2026" },
@@ -131,19 +139,11 @@ export default function ResearchPage() {
     { title: "Хүүхдийн аюулгүй байдлыг бодит цаг хугацаанд хянах систем", authors: "О.Оюунжаргал, С.Азжаргал, Б.Золзаяа", year: "2026", venue: "ММТ-2026" },
     { title: "Компьютерийн хараанд суурилсан обьект илрүүлэх судалгаа", authors: "С.Азжаргал, О.Оюунжаргал, Б.Золзаяа", year: "2026", venue: "ММТ-2026" },
     { title: "Гүн сургалтад суурилсан цээжний рентген зургаас эмнэлзүйн тайлан үүсгэх аргын судалгаа", authors: "М.Энхболор, Б.Золзаяа", year: "2026", venue: "ММТ-2026" },
-    { title: "Хязгаарлагдмал өгөгдөлтэй нөхцөлд буриад аялгын ярианы синтезийн судалгаа", authors: "Б.Золзаяа, С.Өлзийбаяр, Б.Ариунзаяа", year: "2026", venue: "Ази судлал олон улсын эрдэм шинжилгээний хурал XII хурал" },
-    { title: "Дүрсийн технологид суурилсан эртний Рүни-Монгол бичгийг орчин цагийн монгол хэл рүү хөрвүүлэх судалгаа", authors: "С.Өлзийбаяр, Б.Золзаяа, Ю. Болдбаатар", year: "2026", venue: "Ази судлал олон улсын эрдэм шинжилгээний хурал XII хурал" },
     { title: "Хиймэл оюунд суурилсан SUVMAX тооцооллоор умайн хүзүүний хорт хавдар, үсэрхийллийг үнэлэх нь.", authors: "М.Түмэн-Аюуш, С.Өлзийбаяр", year: "2026", venue: "Монгол инженер 2026" },
     { title: "Тээвэр логистикт дрон ашиглах боломжийн судалгаа.", authors: "Б.Амаржаргал, С.Өлзийбаяр", year: "2026", venue: "Монгол инженер 2026" },
     { title: "SafeKid: хиймэл оюунд суурилсан хүүхэд хяналтын систем.", authors: "О.Оюунжаргал, С.Азжаргал, Б.Золзаяа", year: "2026", venue: "Монгол инженер 2026" },
     { title: "Missingalert: хиймэл оюунд суурилсан хяналтын систем.", authors: "С.Азжаргал, О.Оюунжаргал, Б.Золзаяа", year: "2026", venue: "Монгол инженер 2026" },
     { title: "Хиймэл оюун ухаанд суурилсан жолоочийн аюулгүй байдлыг хянах системийн судалгаа ба хөгжүүлэлт.", authors: "Б.Амартүвшин, Н.Гантөмөр, Б.Золзаяа", year: "2026", venue: "Монгол инженер 2026" },
-    { title: "A Study on Efficient Methods for Normalizing Transliterated Social Media Text.", authors: "Sonom-Ochir U., Byambadorj Z., Ayush A., Enkhbayar M., Kim H.", year: "2024", venue: "ICEF 2024" },
-    { title: "Automatic player detection and classification using YOLOv8 and Computer Vision Techniques.", authors: "Gantumur Munkhbat, Karungaru S., Terada K., Ayush A.", year: "2024", venue: "ICEF 2024" },
-    { title: "Detection of Players on a Soccer Team using YOLOv8 and Unsupervised Methods.", authors: "Batbaatar Namjildorj, Karungaru S., Terada K., Ayush A.", year: "2024", venue: "ICEF 2024" },
-    { title: "Cross-lingual, multi-speaker text-to-speech synthesis for low resource languages", authors: "Zolzaya Byambadorj, Ryota Nishimura, Altangerel Ayush, Kengo Ohta, Norihide Kitaoka", year: "2021", venue: "Acoustical Society of Japan (ASJ)" },
-    { title: "Text to speech system for low resource languages by cross-lingual transfer learning and data augmentation", authors: "Zolzaya Byambadorj, Ryota Nishimura, Altangerel Ayush, Kengo Ohta, Norihide Kitaoka", year: "2021", venue: "Acoustical Society of Japan (ASJ)" },
-    { title: "Normalization of transliterated words using Seq2Seq model with spell checker", authors: "Byambadorj Zolzaya, Ryota Nishimura, Ayush Altangerel, Norihide Kitaoka", year: "2020", venue: "Conference paper" },
     { title: "Хиймэл оюуныг шинжлэх ухаан, технологийн салбарт ашиглах нь", authors: "С.Өлзийбаяр, Б.Золзаяа, Э.Мөнхсүх, А.Алтангэрэл", year: "2025", venue: "Хиймэл оюун ухаан ба цэргийн урлаг" },
     { title: "Нийгмийн сүлжээн дэх стандарт бус галиглагдсан бичвэрийг Кирилл бичвэрт хөрвүүлэх загварын судалгаа", authors: "Б.Золзаяа, С.Өлзийбаяр, А.Алтангэрэл, Э.Мөнхсүх", year: "2025", venue: "ММТ-2025" },
     { title: "Домэйн дасан зохицох аргад суурилсан ухаалаг камерийн тохируулгатай хяналтын систем: Замын хөдөлгөөний аюулгүй байдалд ашиглах нь", authors: "С.Өлзийбаяр, Б.Золзаяа, Э.Мөнхсүх, А.Алтангэрэл", year: "2025", venue: "Авто тээвэр - 100 жил"},
