@@ -112,7 +112,7 @@ export default async function ProfessorDetailPage({ params }: ProfessorDetailPag
           <div className="lg:col-span-2 space-y-10">
             
             <section>
-              <h2 className="font-serif text-2xl text-[#0A2647] mb-4" style={{ fontFamily: 'var(--font-merri)' }}>
+              <h2 className="font-serif font-bold text-2xl text-[#0A2647] mb-4" style={{ fontFamily: 'var(--font-merri)' }}>
                 Товч танилцуулга
               </h2>
               <p className="text-[#1B1B1B] leading-relaxed text-lg">
