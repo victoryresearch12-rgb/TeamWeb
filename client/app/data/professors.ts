@@ -6,7 +6,6 @@ export interface Professor {
   email: string;
   phone?: string;
   office?: string;
-  bio: string;
   researchInterests: string[];
   expertise: string[];
   education: {
@@ -26,8 +25,7 @@ export interface Professor {
 }
 
 export const professors: Professor[] = [
-  {
-    id: 'ulziibayar-sonom-ochir',
+  { id: 'ulziibayar-sonom-ochir',
     name: 'С.Өлзийбаяр, дэд профессор, Ph.D',
     title: 'Дэд профессор — Компьютерийн хараа, Мультимодаль AI',
     img: '/images/professors/ulziibayar.png',
@@ -80,7 +78,7 @@ export const professors: Professor[] = [
     ],
   },
   {
-    id: 'altangerel-ariunaa',
+    id: 'altangerel-ayush',
     name: 'А.Алтангэрэл, профессор, Ph.D',
     title: 'Профессор — NLP, TTS',
     img: '/images/professors/altangerel.png',
