@@ -61,10 +61,10 @@ export default function ContactPage() {
           <div className="bg-white border border-neutral-200 rounded-lg p-5 sm:p-6 hover:border-[#FFC300] transition-colors">
             <h2 className="font-serif text-[#0A2647] font-semibold mb-2 text-[20px] sm:text-[22px]">И-мэйл</h2>
             <a
-              href="mailto:sict@must.edu.mn"
+              href="mailto:ulziibayar@must.edu.mn"
               className="text-[14px] sm:text-[15px] text-[#0A2647] underline hover:text-[#144272] transition-colors font-sans"
             >
-              sict@must.edu.mn
+              ulziibayar@must.edu.mn
             </a>
             <p className="text-neutral-500 text-[13px] mt-1 font-sans">Хариу: 2–3 ажлын өдөр</p>
           </div>
