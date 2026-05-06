@@ -24,6 +24,7 @@ export default function ProfessorsPage() {
 		'Ч. Мичидгоо': '/images/students/Michidgoo.png',
 		'Б. Амартүвшин': '/images/students/Amartuvshin.jpg',
 		'Н. Гантөмөр': '/images/students/gantomor.jpg',
+		'С. Батмөнх': '/images/students/Батмөнх.jpg',
 	};
 
 	function initials(name: string) {
