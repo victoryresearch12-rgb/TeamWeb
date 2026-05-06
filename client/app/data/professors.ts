@@ -34,11 +34,10 @@ export const professors: Professor[] = [
     email: 'ulziibayar@must.edu.mn',
     phone: '+976 7015-7333',
     office: '314',
-    bio: 'Би компьютерийн хараа болон мультимодаль AI-ийн салбарт судалгаа явуулж байна. Миний гол сонирхол бол жолоочийн анхаарал илрүүлэх, мульти-камера систем болон дүрс боловсруулалтын шинэлэг аргуудыг хөгжүүлэх явдал юм. Одоогоор тээврийн хэрэгслийн аюулгүй байдлыг сайжруулах зорилготой практик шийдлүүдийг боловсруулж байна.',
     researchInterests: [
       'Компьютерийн хараа',
-      'Жолоочийн анхаарал илрүүлэх систем',
-      'Мульти-камера боловсруулалт',
+      'Видио шинжилнээ',
+      'Их өгөгдлийн боловсруулалт',
       'Дүрс таних технологи',
       'Мультимодаль AI',
       'Гүн сургалт'
@@ -58,16 +57,23 @@ export const professors: Professor[] = [
     ],
     publications: [
       {
+        title: 'Low-resource noisy transliteration normalization using large-scale language model',
+        authors: 'Ulziibayar S., et al.',
+        venue: 'IEEE Access',
+        year: 2025,
+        link: '#'
+      },
+      {
         title: 'Domain adaptation for driver\'s gaze mapping',
-        authors: 'Sonom-Ochir, U., A. Ayush',
+        authors: 'Ulziibayar, S., et al.',
         venue: 'IEEE Conference on Computer Vision',
         year: 2024,
         link: '#'
       },
       {
-        title: 'Multi-camera system for traffic monitoring',
+        title: 'Appearance-based Driver's Gaze Mapping Using a Dash Camera',
         authors: 'Ulziibayar S., et al.',
-        venue: 'International Journal of Computer Vision',
+        venue: 'Joint 12th SCIS & 23rd ISIS',
         year: 2023,
         link: '#'
       }
@@ -81,13 +87,9 @@ export const professors: Professor[] = [
     email: 'altangerel@must.edu.mn',
     phone: '+976 7015-9111',
     office: 'Лаборатори 302',
-    bio: 'Би эх хэлний боловсруулалт (NLP) болон ярианы синтез (TTS) технологийн салбарт 15 гаруй жил судалгаа хийж ирсэн. Монгол хэлний боловсруулалтын онцлог, текстийн нормалчлал, транслитераци зэрэг асуудлуудыг судалж, практик шийдлүүдийг боловсруулж байна. Олон улсын хамтын ажиллагааны хүрээнд хэд хэдэн төслүүдийг удирдсан.',
     researchInterests: [
-      'Натурал хэлний боловсруулалт',
-      'Текст-рүү-яриа синтез',
-      'Монгол хэлний боловсруулалт',
-      'Текстийн нормалчлал',
-      'Транслитераци',
+      'Эх хэлний боловсруулалт',
+      'Ярианы синтез',
       'Хэлний загвар'
     ],
     expertise: ['NLP', 'TTS', 'Language Models', 'Mongolian NLP'],
@@ -105,24 +107,24 @@ export const professors: Professor[] = [
     ],
     publications: [
       {
-        title: 'Mongolian text-to-speech synthesis using deep learning',
+        title: 'Multivariate time series prediction with multi-feature analysis',
         authors: 'Altangerel, A., et al.',
-        venue: 'ACL Conference',
-        year: 2024,
+        venue: 'Expert Systems with Applications',
+        year: 2025,
         link: '#'
       },
       {
-        title: 'Neural machine translation for Mongolian',
-        authors: 'Altangerel, A., Byambadorj, Z.',
-        venue: 'EMNLP',
+        title: 'Residual trio feature network for efficient super-resolution',
+        authors: 'Altangerel, A. et al.',
+        venue: 'Complex & Intelligent Systems',
         year: 2023,
         link: '#'
       },
       {
-        title: 'Mongolian language processing: challenges and solutions',
-        authors: 'Altangerel, A.',
-        venue: 'Computational Linguistics',
-        year: 2022,
+        title: 'Text-to-speech system for low-resource language using cross-lingual transfer learning and data augmentation',
+        authors: 'Altangerel, A., et al.',
+        venue: 'EURASIP Journal on Audio, Speech, and Music Processing',
+        year: 2021,
         link: '#'
       }
     ],
@@ -136,16 +138,13 @@ export const professors: Professor[] = [
     email: 'zolzaya@must.edu.mn',
     phone: '+976 7015-7333',
     office: 'Лаборатори 314',
-    bio: 'Би текст болон хэлний боловсруулалтын чиглэлээр докторын зэрэг хамгаалсан бөгөөд одоо бага нөөцтэй хэлний боловсруулалтын асуудлуудыг судалж байна. Миний сүүлийн үеийн судалгаа нь монгол хэлний транслитераци нормалчлал, текст хураангуй гаргах зэрэг асуудалд төвлөрч байна. Залуу судлаачдыг удирдан дэмжихийг эрхэмлэдэг.',
     researchInterests: [
-      'Текстийн боловсруулалт',
+      'Эх хэлний боловсруулалт',
       'Бага нөөцтэй хэлний боловсруулалт',
-      'Транслитераци нормалчлал',
-      'Текст хураангуй',
       'Хэлний загвар',
-      'LLM хэрэглээ'
+      'Ярианы синтез'
     ],
-    expertise: ['NLP', 'Text Processing', 'Low-Resource Languages', 'LLM'],
+    expertise: ['NLP', 'Text Processing', 'Low-Resource Languages', 'Speech synthesis'],
     education: [
       {
         degree: 'Ph.D Системийн инновацийн инженерчлэл',
@@ -161,23 +160,23 @@ export const professors: Professor[] = [
     publications: [
       {
         title: 'Low-resource noisy transliteration normalization using large-scale language model',
-        authors: 'Byambadorj, Z., Ulziibayar S., et al.',
-        venue: 'COLING 2025',
+        authors: 'Zolzaya, B., et al.',
+        venue: 'IEEE Access',
         year: 2025,
         link: '#'
       },
       {
-        title: 'Mongolian text summarization using transformer models',
-        authors: 'Byambadorj, Z., Altangerel, A.',
-        venue: 'EMNLP',
-        year: 2024,
+        title: 'Text-to-speech system for low-resource language using cross-lingual transfer learning and data augmentation',
+        authors: 'Zolzaya, B., et al.',
+        venue: 'EURASIP Journal on Audio, Speech, and Music Processing',
+        year: 2021,
         link: '#'
       },
       {
-        title: 'Neural approaches to Mongolian morphological analysis',
-        authors: 'Byambadorj, Z.',
-        venue: 'ACL Workshop',
-        year: 2023,
+        title: 'Normalization of transliterated mongolian words using Seq2Seq model with limited data',
+        authors: 'Zolzaya, B., et al.',
+        venue: 'ACM Transactions on Asian and Low-Resource Language Information Processing',
+        year: 2021,
         link: '#'
       }
     ],
