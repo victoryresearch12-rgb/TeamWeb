@@ -71,7 +71,7 @@ export const professors: Professor[] = [
         link: '#'
       },
       {
-        title: 'Appearance-based Driver's Gaze Mapping Using a Dash Camera',
+        title: 'Appearance-based Driver\'s Gaze Mapping Using a Dash Camera',
         authors: 'Ulziibayar S., et al.',
         venue: 'Joint 12th SCIS & 23rd ISIS',
         year: 2023,
