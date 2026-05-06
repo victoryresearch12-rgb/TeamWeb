@@ -46,7 +46,7 @@ export const professors: Professor[] = [
     expertise: ['AI', 'CV', 'Deep Learning', 'Multi-Camera Systems'],
     education: [
       {
-        degree: 'Ph.D компьютерийн шинжлэх ухаан',
+        degree: 'Ph.D Системийн инновацийн инженерчлэл',
         institution: 'Токушима их сургууль, Япон',
         year: '2024'
       },
@@ -93,14 +93,14 @@ export const professors: Professor[] = [
     expertise: ['NLP', 'TTS', 'Language Models', 'Mongolian NLP'],
     education: [
       {
-        degree: 'Ph.D хэл шинжлэл ба компьютер',
-        institution: 'Токиогийн Их Сургууль',
-        year: '2008'
+        degree: 'Ph.D Мэдээллийн технологи',
+        institution: 'МХТС, ШУТИС',
+        year: '2012'
       },
       {
-        degree: 'Магистр, Компьютерийн шинжлэх ухаан',
-        institution: 'Улсын Их Сургууль',
-        year: '2003'
+        degree: 'Магистр, Мэдээллийн технологи',
+        institution: 'МХТС, ШУТИС',
+        year: '1996'
       }
     ],
     publications: [
@@ -126,8 +126,7 @@ export const professors: Professor[] = [
         link: '#'
       }
     ],
-    courses: ['Натурал хэлний боловсруулалт', 'Машин орчуулга', 'NLP-ийн суурь'],
-    awards: ['Шилдэг багш - 2023', 'Олон улсын хамтын ажиллагааны шагнал - 2021', 'Гавьяат судлаач - 2019']
+    
   },
   {
     id: 'zolzaya-byambadorj',
@@ -182,8 +181,7 @@ export const professors: Professor[] = [
         link: '#'
       }
     ],
-    courses: ['Текстийн боловсруулалт', 'Машин сургалтын суурь', 'NLP практикум'],
-    awards: ['Залуу эрдэмтний шагнал - 2024', 'Шилдэг нийтлэл - COLING 2025']
+    
   }
 ];
 
