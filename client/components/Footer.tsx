@@ -93,8 +93,8 @@ export default function Footer() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="h-5 w-5 text-[#FFC300] shrink-0" />
-                    <a href="mailto:sict@must.edu.mn" className="text-sm text-white/80 hover:underline decoration-[#FFC300] underline-offset-4">
-                      sict@must.edu.mn
+                    <a href="mailto:ulziibayar@must.edu.mn" className="text-sm text-white/80 hover:underline decoration-[#FFC300] underline-offset-4">
+                      ulziibayar@must.edu.mn
                     </a>
                   </div>
                    <div className="flex items-start space-x-3">
