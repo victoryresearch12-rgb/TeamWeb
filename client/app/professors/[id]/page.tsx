@@ -116,7 +116,7 @@ export default async function ProfessorDetailPage({ params }: ProfessorDetailPag
             
             <section>
               <h2 className="font-serif text-2xl text-[#0A2647] mb-4" style={{ fontFamily: 'var(--font-merri)' }}>
-                Судалгааны сонирхлын чиглэл
+                Судалгааны чиглэл
               </h2>
               <div className="grid sm:grid-cols-2 gap-3">
                 {professor.researchInterests.map((interest, idx) => (
@@ -147,7 +147,7 @@ export default async function ProfessorDetailPage({ params }: ProfessorDetailPag
             
             <section>
               <h2 className="font-serif text-2xl text-[#0A2647] mb-4" style={{ fontFamily: 'var(--font-merri)' }}>
-                Сонгосон нийтлэлүүд
+                Сүүлийн нийтлэлүүд
               </h2>
               <div className="space-y-6">
                 {professor.publications.map((pub, idx) => (
