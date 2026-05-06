@@ -72,8 +72,6 @@ export const professors: Professor[] = [
         link: '#'
       }
     ],
-    courses: ['Компьютерийн хараа', 'Гүн сургалт', 'AI системийн хөгжүүлэлт'],
-    awards: ['Шилдэг судалгааны ажил - 2024', 'Залуу судлаачийн шагнал - 2022']
   },
   {
     id: 'altangerel-ariunaa',
